@@ -19,16 +19,6 @@ function App() {
         {
           path:"/",
           element:<Home></Home>,
-          children:[
-            {
-              path:'/',
-              element:<BannerSlider></BannerSlider>
-            },
-            {
-              path:'/',
-              element:<InfoCardBanner></InfoCardBanner>
-            },
-          ],
         },
         {
           path:"/about",
