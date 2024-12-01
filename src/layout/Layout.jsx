@@ -1,7 +1,9 @@
 import React from 'react';
-import Header from '../component/Shared/Header';
 import { Outlet } from 'react-router-dom';
-import Footer from '../component/Shared/Footer';
+import Header from '../component/Shared/Header/Header';
+import Footer from '../component/Shared/Footer/Footer';
+
+
 
 const Layout = () => {
     return (

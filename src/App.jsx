@@ -4,6 +4,10 @@ import Layout from './Layout/Layout';
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import './App.css'
+import Product from './component/Product/Product';
+import Contact from './component/Contact/Contact';
+import InfoCardBanner from './component/Home/InfoCardBanner/InfoCardBanner';
+import BannerSlider from './component/Home/BannerSlider/BannerSlider';
 
 
 function App() {
@@ -15,10 +19,28 @@ function App() {
         {
           path:"/",
           element:<Home></Home>,
+          children:[
+            {
+              path:'/',
+              element:<BannerSlider></BannerSlider>
+            },
+            {
+              path:'/',
+              element:<InfoCardBanner></InfoCardBanner>
+            },
+          ],
         },
         {
           path:"/about",
           element:<About></About>,
+        },
+        {
+          path:"/product",
+          element:<Product></Product>,
+        },
+        {
+          path:"/contact",
+          element:<Contact></Contact>,
         },
       ],
     },
