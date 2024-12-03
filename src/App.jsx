@@ -4,10 +4,8 @@ import Layout from './Layout/Layout';
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import './App.css'
-import Product from './component/Product/Product';
 import Contact from './component/Contact/Contact';
-import InfoCardBanner from './component/Home/InfoCardBanner/InfoCardBanner';
-import BannerSlider from './component/Home/BannerSlider/BannerSlider';
+import Shop from './component/Shop/Shop';
 
 
 function App() {
@@ -26,7 +24,7 @@ function App() {
         },
         {
           path:"/product",
-          element:<Product></Product>,
+          element:<Shop></Shop>,
         },
         {
           path:"/contact",
