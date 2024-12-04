@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Product from './Product/Product';
 import Products from './Product/Products';
 import ShoppingCart from './ShoppingCart/ShoppingCart';
 
