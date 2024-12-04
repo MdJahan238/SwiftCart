@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { faTrashAlt } from '@fortawesome/free-regular-svg-icons';
 import { faArrowRight, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 const ShoppingCart = ({cart,handleClearCart}) => {
