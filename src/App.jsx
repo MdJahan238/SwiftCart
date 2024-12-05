@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './layout/Layout';
 import Home from './component/Home/Home';
-import About from './component/About/About';
+import About from './component/About/about';
 import './App.css'
 import Contact from './component/Contact/Contact';
 import Shop from './component/Shop/Shop';
